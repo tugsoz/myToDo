@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+body{
+    /* background: rgb(25, 81, 128); */
+    background: #6667AB;
+}
+.container{
+    min-height: 70px;
+    width: 800px;
+    background: rgb(243, 195, 195);
+    margin: 200px auto;
+    box-shadow: 0 0 50px 0 white;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.title{
+    height: 70px;
+    width: 100%;
+    background: rgb(240, 224, 171);
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    color: #6667AB;
+}
+.tasks{
+    height: 100px;
+    width: 40%;
+    margin-left: 300px;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+}
+input[type="text"]{
+    width: 400px;
+    height: 30px;
+    padding-left: 15px;
+    margin: 0 100px;
+    border-radius: 15px;
+    border: none;
+}
+.add{
+    height: 30px;
+    width: 55px;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+    background: white;
+    color: #6667AB;
+    border-radius: 15px;
+    font-weight: bold;
+    outline: 1px solid #6667AB;
+}
+.listBox{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    color: #6667AB;
+    gap: 20px;
+}
+.listText{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    min-height: 25px;
+    width: 400px;
+    padding: 10px 15px;
+    margin: 0 80px 0 100px;
+    font-size: 14px;
+}
+i{
+    cursor: pointer;
+}
+.done{
+    background: gray;
+    text-decoration: line-through;
+    color: white
+}
